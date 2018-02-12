@@ -1,12 +1,6 @@
-# Vivacity Labs Coding Challenge
-Thank you for applying to join the Vivacity team, and welcome to our coding challenge.
-
-Please read all of these instructions, then tackle the problems in order. There are 3 problems of increasing difficulty.
-
-This document first gives overall instructions, then details each of the problems. If something is unclear, feel free to either make reasonable assumptions or ask for clarification.
-
-Thank you again for your time completing this challenge, we look forward to receiving your code!
-
+# Coding Challenge for a company I applied for.
+See notes.txt for my notes. 
+This repo is by no means a solution for these problems.  
 ---
 ## Overall Instructions
 The challenge is composed of 3 problems. Please try to complete all of the problems, but don’t panic if you aren’t able to, you won’t be disqualified. Overall, this challenge isn’t about just getting the ‘right’ answer, it’s about writing good code.
