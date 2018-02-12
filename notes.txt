@@ -1,0 +1,22 @@
+Notes 
+
+JavaScript is the language of choice for the code challenge according to the job description of the role. To install the required packages, run ‘npm install’. 
+
+Challenge 1 
+
+In the CLI, type ‘node hash.js <Path to hash.txt>’ to run the code.
+Vanilla JavaScript was used in the challenge as not much manipulation was required. A counter is implemented to keep track of how many characters of the answer string is solved. The most difficult part of this challenge wasT understanding the steps to derive at the 10 character string. The need to avoid non-numerical positions and repeats also increased the difficulty the challenge. 
+
+Challenge 2 
+
+In the CLI, type ‘node pathfinding.js <Path to path.txt>’ to run the code. 
+Lodash and RegExp is extensively used in this challenge to assist in manipulation of arrays.
+Easystarjs is my choice of pathfinding library, it utilises the A* pathfinding algorithm and is easy to implement. Most of the solution was smoothly implemented apart from a few obstacles: 1. I forgot to Stringify arrays before comparing them. 2. Async issues with calculating path and mapping answer (may still arise between plotting map for easy star and calculation by easystar if given a huge map).
+
+Challenge 3
+
+Ran out of time and complete a solution for it. So far I was able to find the tiles present on the board and import their value and coordinates into an array of objects. Next steps are to find out where valid moves can be placed and determine whether appending a tile from our hands to the board will form a valid word in the dictionary. And if valid, calculate score. After a bit of research, it appears that there are several ways to avoid inefficiencies, such as storing the dictionary in a Trie and using backtracking on top of it. 
+
+Overall reflection: 
+
+Tests could be written to automate checking. The efficiency and cleanliness of my code may be improved. I really enjoyed the puzzle solving aspects of these challenges and learned a lot throughout the process. The instructions were very clearly written and the challenges were of a suitable difficulty level. However for a full stack role there was not much need for demonstration of my front end development abilities. 

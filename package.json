@@ -1,0 +1,16 @@
+{
+  "name": "vivacity-challenge",
+  "version": "1.0.0",
+  "description": "Thank you for applying to join the Vivacity team, and welcome to our coding challenge.",
+  "main": "hash.js",
+  "dependencies": {
+    "easystarjs": "^0.4.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
